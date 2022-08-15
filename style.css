@@ -1,0 +1,21 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+#division1{
+    background-color: coral;
+    padding: 10px;
+}
+canvas{
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    }
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px red;}
+}
